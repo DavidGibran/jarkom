@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+body {
+    background-color: #D9D9D9;
+    margin-top: 60px;
+}
+
+li, a {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    background-color: #A8A5A5;
+    display: flex;
+    align-items: center;
+    padding: 20px 5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.container-nav-text {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li:nth-child(1) {
+    padding: 0px 20px 0px 0px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav__links li a::after {
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: black; 
+    transition: width 0.3s ease; 
+}
+
+.nav__links li a:hover::after {
+    width: 100%;
+}
+
+.main-photo {
+    padding: 15px 17px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-model {
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.secondary-photo {
+    padding: 0px 17px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.secondary-model {
+    margin: 0px 10px;
+    width: 165px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+/* .nav__links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 0px !important;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    position: relative;
+    cursor: pointer;
+}
+.nav__links li a::after {
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: black; 
+    transition: width 0.3s ease; 
+}
+.nav__links li a:hover::after {
+    width: 100%;
+} */
