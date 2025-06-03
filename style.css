@@ -24,7 +24,7 @@ li, a {
     text-decoration: none;
 }
 header {
-    background-color: #D9D9D9FF;
+    background-color: #FF000080;
     display: flex;
     align-items: center;
     padding: 20px 5%;
@@ -38,7 +38,7 @@ header {
 }
 .container-logo img{
     width: 120px;
-    height: auto;
+    height: 120px;
 }
 .container-logo {
     display: flex;
