@@ -2,7 +2,7 @@
 
     <!-- heading -->
     <div class="slider-heading">
-        <h3>New Arrival.<span> Get Yours</span></h3>
+        <h3>Get to Know<span> Our Member</span></h3>
     </div>
 
 
